@@ -2,8 +2,14 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-/* }
+} 
+/* 
 .heading-text{
     font-size: 70px;
     color: tomato;
 } */
+
+.icon-font{
+    font-size: 70px;
+    color: turquoise;
+}
