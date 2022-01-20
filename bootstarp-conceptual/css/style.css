@@ -13,3 +13,7 @@ body{
     font-size: 70px;
     color: turquoise;
 }
+
+.download{
+    height: 100vh;
+}
