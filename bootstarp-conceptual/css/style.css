@@ -3,11 +3,12 @@
 body{
     font-family: 'Poppins', sans-serif;
 } 
-/* 
-.heading-text{
+
+.large-text{
     font-size: 70px;
-    color: tomato;
-} */
+    color: blueviolet;
+    font-weight: 900;
+}
 
 .icon-font{
     font-size: 70px;
@@ -32,11 +33,36 @@ body{
     width: 100vw;
     height: 100vh;
 }
+
+.company-image{
+    width: 100vw;
+    background-image: url(../img/company.jpg),
+    linear-gradient(rgba(67, 97, 121, 0.486),rgba(90, 73, 241, 0.514));;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center top;
+    background-attachment: fixed;
+    overflow: hidden;
+    outline: none;
+}
+
 @media only screen and (max-width: 480px ) {
     .download{
         height: 50vh;
         width: 100vw;
         background-size: 150vw 150vh;
         object-fit: cover;
+    }
+    .download-text{
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .large-text{
+        font-size: 42px;
+    }
+    .company-image{
+        background-size: 350vw 100vh;
     }
 }
